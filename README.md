@@ -1,4 +1,4 @@
-# wordpress-theme-boiler
+# WordPress Theme Boilerplate
 A boilerplate theme for WordPress
 
 - Dockerized theme
