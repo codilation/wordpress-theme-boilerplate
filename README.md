@@ -17,3 +17,22 @@ WordPress Theme Boilerplate is robust solution for developing a WordPress theme 
 - Install dependancies - `npm install` or `yarn install`
 - Start **development** mode - `npm run dev` or `yarn dev`
 - Build a **production** distribution - `npm run build` or `yarn build`
+
+## What's in the box?
+
+- Dockerized. No LAMP stack required on your development computer.
+- Normalize.css
+- PostCSS with the following plugins:
+    - Autoprefixer
+    - CSS partial import
+    - SCSS-like nesting
+    - [Automatic icon fonts](https://www.npmjs.com/package/iconfont-webpack-plugin)
+- [BrowserSync](https://www.browsersync.io/)
+
+## Contributing
+
+We're always open to suggestions and improvements. You are welcome to submit a pull request or an issue on the project.
+
+## License
+
+The code is available under the [MIT license](LICENSE.txt).
