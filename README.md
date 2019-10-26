@@ -1,4 +1,6 @@
 # WordPress Theme Boilerplate
+[![GitHub license](https://img.shields.io/github/license/codilation/wordpress-theme-boilerplate)](https://github.com/codiltion/wordpress-theme-boilerplate/blob/master/LICENSE)
+[![dependencies Status](https://david-dm.org/codiltion/wordpress-theme-boilerplate/status.svg)](https://david-dm.org/codiltion/wordpress-theme-boilerplate)
 
 WordPress Theme Boilerplate is robust solution for developing a WordPress theme from the start. It uses docker to set up WordPress so you will NOT need to setup a LAMP stack on your machine. It is also perfect for building with PostCSS and Webpack.
 
