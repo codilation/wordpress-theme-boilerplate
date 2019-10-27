@@ -9,6 +9,9 @@
 				</article>
 			<?php endwhile; ?>
     <?php else: ?>
+			<p>
+				No posts found
+			</p>
     <?php endif; ?>
   </div>
 <?php get_footer(); ?>
