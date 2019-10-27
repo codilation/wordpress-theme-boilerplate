@@ -3,7 +3,7 @@
 [![dependencies Status](https://david-dm.org/codilation/wordpress-theme-boilerplate/status.svg)](https://david-dm.org/codilation/wordpress-theme-boilerplate)
 ![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/gutenberg)
 
-WordPress Theme Boilerplate is robust solution for developing a WordPress theme from the start. It uses docker to set up WordPress so you will NOT need to setup a LAMP stack on your machine. It is also perfect for building with PostCSS and Webpack.
+WordPress Theme Boilerplate is robust solution for developing a WordPress theme from the start. It uses Docker to set up WordPress so you will NOT need to setup a LAMP stack on your machine. It is also perfect for building with PostCSS and Webpack.
 
 ## How do I use it?
 
