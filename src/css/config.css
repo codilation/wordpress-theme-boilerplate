@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@custom-media --sm (min-width: 480px);
+@custom-media --md (min-width: 768px);
+@custom-media --lg (min-width: 1140px);
+@custom-media --xl (min-width: 1440px);
+
+:root {
+	--mercury: #e5e5e5;
+	--oxford: #364653;
+	--wedge: #5482ab;
+	--curious: #1A93D7;
+	--teal: #054d53;
+	--elm: #19938e;
+	--persian: #70181f;
+	--cinnebar: #EA3837;
+	--kumera: #936e28;
+	--sunglow: #ffbc38;
+	--violet: #2f1545;
+	--tapestry: #9e478e;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+html {
+	font-size: 100%;
+}
+
+body {
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+button {
+	outline: none;
+}
+
+picture, img {
+	display: block;
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+*[class$=-inner] {
+	padding: 0 1em;
+	margin: 0 auto;
+	@media(--md) {
+			max-width: 80%;
+	}
+}

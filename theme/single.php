@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="page page-single">
+  <main class="tmp-post">
     <h1><?php the_title(); ?></h1>
-  </div>
+  </main>
 <?php get_footer(); ?>

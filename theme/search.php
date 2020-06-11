@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="page page-search">
+  <main class="tmp-search">
     <?php if(have_posts()): ?>
 			<?php while(have_posts()): the_post(); ?>
 				<article>
@@ -13,5 +13,5 @@
 				No posts found
 			</p>
     <?php endif; ?>
-  </div>
+  </main>
 <?php get_footer(); ?>

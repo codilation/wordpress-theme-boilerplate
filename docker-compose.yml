@@ -20,7 +20,8 @@ services:
        - "8000:80"
      restart: always
      volumes:
-       - ./theme:/var/www/html/wp-content/themes/codilation
+       - ./core:/var/www/html
+       - ./theme:/var/www/html/wp-content/themes/is3
        - ./plugins:/var/www/html/wp-content/plugins
        - ./config/php.ini:/usr/local/etc/php/conf.d/php.ini
      environment:

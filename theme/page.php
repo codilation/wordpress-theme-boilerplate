@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-  <div class="page page-page">
+  <main class="tmp-page">
     <h1>
       <?php the_title(); ?>
     </h1>
-  </div>
+  </main>
 <?php get_footer(); ?>

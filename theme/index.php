@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="page page-home">
+  <main class="tmp-home">
     <h1>WordPress Boilerplate</h1>
     <?php if(have_posts()): ?>
 			<?php while(have_posts()): the_post(); ?>
@@ -14,5 +14,5 @@
 				No posts found
 			</p>
     <?php endif; ?>
-  </div>
+  </main>
 <?php get_footer(); ?>
