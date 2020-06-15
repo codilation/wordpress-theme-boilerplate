@@ -20,9 +20,10 @@ services:
        - "8000:80"
      restart: always
      volumes:
-       - ./theme/:/var/www/html/wp-content/themes/is3
+       - ./theme:/var/www/html/wp-content/themes/theme
+       - ./plugins:/var/www/html/wp-content/plugins
        - ./config/php.ini:/usr/local/etc/php/conf.d/php.ini
-       - ./startup.sh:/startup.sh
+       - ./config/startup.sh:/startup.sh
      working_dir: /var/www/html
      entrypoint: ["sh", "/startup.sh"]
      environment:
