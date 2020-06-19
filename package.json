@@ -1,9 +1,9 @@
 {
   "name": "IS3",
   "version": "1.0.0",
-  "description": "Wordpress theme for IS3",
+  "description": "A WordPress theme boilerplate using Docker, PostCSS and Webpack",
   "repository": "git@github.com:magn3tic/is3.git",
-  "author": "Sebastian Opperman <oppermansebastian@gmail.com>",
+  "author": "Sebastian Opperman <codilation@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config=config/webpack.development.js",
